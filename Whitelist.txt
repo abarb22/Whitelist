@@ -38,6 +38,7 @@ www.apple.com
 www.appleiphonecell.com
 mask.icloud.com
 mask-h2.icloud.com
+aaplimg.com
 spclient.wg.spotify.com
 apresolve.spotify.com
 api-tv.spotify.com

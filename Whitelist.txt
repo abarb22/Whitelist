@@ -30,15 +30,175 @@ android.clients.google.com
 clients3.google.com
 connectivitycheck.gstatic.com 
 msftncsi.com
-www.msftncsi.com
-ipv6.msftncsi.com
-captive.apple.com
-gsp1.apple.com
-www.apple.com
-www.appleiphonecell.com
-mask.icloud.com
-mask-h2.icloud.com
-aaplimg.com
-spclient.wg.spotify.com
-apresolve.spotify.com
-api-tv.spotify.com
+us-east-1.amazonaws.com
+
+# Amazon AWS (???) - whitelist to make Kryptonite work
+sqs.us-east-1.amazonaws.com
+
+# Bild.de
+acdn.adnxs.com
+cdn1.smartadserver.com
+ec-ns.sascdn.com
+
+# DirectTV Now
+js.maxmind.com
+directvnow.com
+directvapplications.hb.omtrdc.net
+s.zkcdn.net
+
+# Facebook
+creative.ak.fbcdn.net
+external-lhr0-1.xx.fbcdn.net
+external-lhr10-1.xx.fbcdn.net
+external-lhr1-1.xx.fbcdn.net
+external-lhr2-1.xx.fbcdn.net
+external-lhr3-1.xx.fbcdn.net
+external-lhr4-1.xx.fbcdn.net
+external-lhr5-1.xx.fbcdn.net
+external-lhr6-1.xx.fbcdn.net
+external-lhr7-1.xx.fbcdn.net
+external-lhr8-1.xx.fbcdn.net
+external-lhr9-1.xx.fbcdn.net
+fbcdn-creative-a.akamaihd.net
+graph.facebook.com
+graph.instagram.com
+instagram.c10r.facebook.com
+scontent-lhr3-1.xx.fbcdn.net
+scontent.xx.fbcdn.net
+scontent.fgdl5-1.fna.fbcdn.net
+facebook.com
+facebook.net
+fbcdn.net
+cdn.fbsbx.com
+edge-mqtt.facebook.com
+0-edge-chat.facebook.com
+1-edge-chat.facebook.com
+2-edge-chat.facebook.com
+3-edge-chat.facebook.com
+4-edge-chat.facebook.com
+5-edge-chat.facebook.com
+6-edge-chat.facebook.com
+edge-chat.facebook.com
+mqtt-mini.facebook.com
+
+# Fix - Images not loading on www.thecut.com
+pixel.nymag.com
+
+# GeForce Experience
+events.gfe.nvidia.com
+gfwsl.geforce.com
+
+# GTA Online telemetry. Whitelist this domain to prevent the game from crashing.
+prod.telemetry.ros.rockstargames.com
+
+# Host files
+hosts-file.net
+raw.githubusercontent.com
+v.firebog.net
+hostsfile.org
+someonewhocares.org
+hostsfile.mine.nu
+winhelp2002.mvps.org
+sysctl.org
+pgl.yoyo.org
+zeustracker.abuse.ch
+
+# Images not loading on aliexpress.com
+ae01.alicdn.com
+
+# Jackbox.tv
+www.google-analytics.com
+google-analytics.com
+ssl.google-analytics.com
+
+# Lotus talk
+lotustalk.com
+www.lotustalk.com
+
+# National Express, UK (nationalexpress.com/en) - Unable to book journey
+cdns.gigya.com
+
+# Netflix - Domains needed for netlix to work correctly
+api-global.netflix.com
+appboot.netflix.com
+secure.netflix.com
+
+# NowTV UK - AppleTV
+dpm.demdex.net
+
+# Nvidia updates
+ota-downloads.nvidia.com
+
+# Pluto.tv
+images.pluto.tv
+stitcher.pluto.tv
+siloh.pluto.tv
+silo.pluto.tv
+cdn-mobile.api.pluto.tv
+api.pluto.tv
+players.pluto.tv
+
+# Roku HGTV app: Failed to play previous episodes
+dcs-vod.apis.anvato.net
+
+# Roku TNT app: Failed to play videos
+manifest.auditude.com
+# Refersion.com (affiliate marketing)
+refersion.com
+
+cwtv-mrss-akamai.cwtv.com
+redirector.googlevideo.com
+# Samsung TV's Amazon Prime Video app
+
+cdn.samsungcloudsolution.com
+# SBS Online videos not playing
+sbs.com.au
+media.sbs.com.au
+videocdn-sbs.akamaized.net
+link.theplatform.com
+a463.w10.akamai.net
+
+dsms0mj1bbhn4.cloudfront.net
+
+assets.adobedtm.com
+# Spotify premium with Denon Heos speakers
+mobile-ap.spotify.com
+market.spotify.com
+# Target's Weekly Ads
+
+
+www.adf.ly
+ow.ly
+
+
+# WatchESPN
+livepassdl.conviva.com
+
+# streamelements.com (Blocked by Pi-hole regex)
+stats.streamelements.com
+1drv.com
+2.android.pool.ntp.org
+api.ipify.org
+api.rlje.net
+aspnetcdn.com
+attestation.xboxlive.com
+cdn2.optimizely.com
+cdn3.optimizely.com
+clients6.google.com
+cpms.spop10.ams.plex.bz
+dev.virtualearth.net
+device.auth.xboxlive.com
+edge.api.brightcove.com
+eds.xboxlive.com
+i.ytimg.com
+i1.ytimg.com
+manifest.googlevideo.com
+meta-db-worker02.pop.ric.plex.bz
+ocsp.apple.com
+office.com
+s.gateway.messenger.live.com
+s.marketwatch.com
+thetvdb.com
+tinyurl.com
+xsts.auth.xboxlive.com
+youtu.be
